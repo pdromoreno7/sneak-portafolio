@@ -119,7 +119,7 @@ button{
  max-width: 300px;
  padding: .7rem 2rem;
  font-family: var(--body-font) ;
- color: var(--tercer-color)
+ color: var(--tercer-color);
 }
 .section-title,
 .section-subtitle {
