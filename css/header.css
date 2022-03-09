@@ -12,7 +12,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3rem;
+  padding: 1 3rem;
+  margin-top:2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -58,13 +59,11 @@
 .active-link {
   color: white;
   padding: 0.5rem 1.5rem;
-  /* width: 65%;
-  height: 3px; */
   background-color: var(--tercer-color);
 }
-/* Change background header */
+
 .scroll-header {
-  background-color: var(--first-color-lighten);
+
   box-shadow: var(--sombra-box);
 }
 .scroll-header .nav__logo,
@@ -72,6 +71,4 @@
 .scroll-header .nav__link {
   color: var(--first-color-dark);
 }
-.scroll-header .nav__menu {
-  background-color: var(--first-color-lighten);
-}
+

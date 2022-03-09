@@ -12,7 +12,7 @@
   --first-color-light: #ffffff;
   --first-color-lighten: #4d4d4d;
   --secundario-color: #e06584;
-  --tercer-color: #d83a61;
+  --tercer-color: #e06584;
 
   /*===== Font and typography =====*/
   --body-font: 'Montserrat', sans-serif;
@@ -101,6 +101,10 @@ ul {
 
 a {
   text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  font-weight: var(--font-semi-bold);
 }
 
 img {
@@ -119,7 +123,34 @@ button{
  max-width: 300px;
  padding: .7rem 2rem;
  font-family: var(--body-font) ;
+ cursor: pointer;
+  transition: all 1s;
+}
+.button-main a {
  color: var(--tercer-color);
+}
+.button-two {
+  max-width: 300px;
+ padding: .7rem 2rem;
+ font-family: var(--body-font) ;
+ background-color:  var(--secundario-color);
+ cursor: pointer;
+  transition: all 1s;
+
+}
+.button-two a{ 
+  color: white;
+}
+
+.button-main:hover {
+  transition: all 1s;
+   box-shadow: var(--sombra-box);
+   transform:translateY(-10px);
+}
+.button-two:hover {
+  transition: all 1s;
+   box-shadow: var(--sombra-box);
+   transform:translateY(-10px);
 }
 .section-title,
 .section-subtitle {
@@ -137,4 +168,9 @@ button{
   font-size: var(--smaller-font-size);
   font-weight: var(--font-semi-bold);
 }
- 
+.more-container {
+  height: 200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
