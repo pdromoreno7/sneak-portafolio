@@ -1,0 +1,20 @@
+.footer__info {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  color: rgb(184, 184, 184);
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.footer__info span {
+  color: var(--secundario-color);
+}
+.footer__info-description p {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.footer__info-social {
+  display: flex;
+  gap: 1rem;
+}

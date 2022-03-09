@@ -1,6 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Spectral:ital,wght@1,200;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Questrial&family=Spectral:ital,wght@1,200;1,300&display=swap');
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -11,11 +11,11 @@
   --text-color: #504a4a;
   --first-color-light: #ffffff;
   --first-color-lighten: #4d4d4d;
-  --secundario-color: #e06584;
-  --tercer-color: #e06584;
+  --secundario-color: #fc758c;
+  --tercer-color: #fc758c;
 
   /*===== Font and typography =====*/
-  --body-font: 'Montserrat', sans-serif;
+  --body-font: 'Questrial', sans-serif;;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
