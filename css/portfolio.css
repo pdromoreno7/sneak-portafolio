@@ -17,6 +17,8 @@
 .portfolio__item {
   margin: 0 var(--mb-2);
   cursor: pointer;
+  color: rgb(165, 165, 165);
+  font-weight: bold;
 }
 .portfolio__content {
   background-color: #fff;

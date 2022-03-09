@@ -1,5 +1,5 @@
 .hero__container {
-  height: 95vh;
+  height: 100vh;
   background-color: var(--secundario-color);
   display: flex;
   align-items: center;
@@ -19,5 +19,5 @@
   letter-spacing: 1rem;
 }
 .hero__info-parrafo {
-  width: 50%;
+  width: 40%;
 }

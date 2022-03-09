@@ -12,8 +12,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1 3rem;
-  margin-top:2rem;
+  padding: 2rem 0;
+}
+.nav__search {
+  color: var(--secundario-color);
+  margin: auto 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -32,12 +35,15 @@
   .nav__item {
     margin-bottom: var(--mb-3);
   }
+  }
   .nav__link {
     color: var(--first-color-lighten);
     transition: 0.3s;
+    color: rgb(165, 165, 165);
+   font-weight: bold;
   }
   .nav__link:hover {
-    color: var(--first-color-light);
+    color: black;
   }
   .nav__logo,
   .nav__toggle {
@@ -47,7 +53,7 @@
     font-size: 1.3rem;
     cursor: pointer;
   }
-}
+
 /* ======== Show menu =====*/
 .show-menu {
   top: var(--header-height);
