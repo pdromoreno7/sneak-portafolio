@@ -9,9 +9,10 @@
   --first-color: #ffffff;
   --first-color-dark: #000000;
   --text-color: #504a4a;
-  --first-color-light: #7b6f71;
+  --first-color-light: #ffffff;
   --first-color-lighten: #4d4d4d;
-  --secundario-color: #d85173;
+  --secundario-color: #e06584;
+  --tercer-color: #d83a61;
 
   /*===== Font and typography =====*/
   --body-font: 'Montserrat', sans-serif;
@@ -75,7 +76,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  background-color: var(--first-color-lighten);
+  background-color: var(--first-color-light);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -110,6 +111,15 @@ img {
 /*===== CLASS CSS =====*/
 .section {
   padding: 4rem 0 2rem;
+}
+button{
+  border:none;
+}
+.button-main {
+ max-width: 300px;
+ padding: 1rem 2rem;
+ font-family: var(--body-font) ;
+ color: var(--tercer-color)
 }
 .section-title,
 .section-subtitle {

@@ -1,9 +1,10 @@
 @import url(globales.css);
 @import url(header.css);
+@import url(hero.css);
 
 /*===== LAYOUT =====*/
 .bd-container {
-  max-width: 1024px;
+  max-width: 1600px;
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
