@@ -14,3 +14,10 @@
   width: 60%;
   color: white;
 }
+.hero__info .hero__info-title {
+  font-size: var(--h1-font-size);
+  letter-spacing: 1rem;
+}
+.hero__info-parrafo {
+  width: 50%;
+}

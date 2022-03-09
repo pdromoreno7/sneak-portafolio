@@ -117,7 +117,7 @@ button{
 }
 .button-main {
  max-width: 300px;
- padding: 1rem 2rem;
+ padding: .7rem 2rem;
  font-family: var(--body-font) ;
  color: var(--tercer-color)
 }
