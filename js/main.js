@@ -79,13 +79,10 @@ linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
 
 //JSON card
 
-const app = {};
 const miPortafolio = function (datos) {
   console.log(datos);
-  app.portafolio = datos;
   let html = "";
-
-  app.portafolio.map(item => {
+  datos.map(item => {
     html += `<div class="portfolio__content mix ${item.class}">
             <a href="#">
               <img src=${item.img} class="portfolio__img" />
@@ -100,7 +97,23 @@ const miPortafolio = function (datos) {
             </div>
           </div>`
   })
-  document.getElementById("portafolio").innerHTML = html;
+  document.querySelector(".portfolio__container").innerHTML = html;
 }
 
-
+/*===== GSAP ANIMATION =====*/
+gsap.from(".nav__toggle", {
+  opacity: 0,
+  duration: 2,
+  delay: 1.5,
+  y: 25,
+  ease: "expo.out",
+  stagger: 0.2,
+});
+gsap.from(".nav__item", {
+  opacity: 0,
+  duration: 2,
+  delay: 1.8,
+  y: 25,
+  ease: "expo.out",
+  stagger: 0.2,
+});
