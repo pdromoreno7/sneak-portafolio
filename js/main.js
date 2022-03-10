@@ -76,3 +76,31 @@ function activePortfolio() {
 }
 linkPortfolio.forEach((l) => l.addEventListener("click", activePortfolio));
 
+
+//JSON card
+
+const app = {};
+const miPortafolio = function (datos) {
+  console.log(datos);
+  app.portafolio = datos;
+  let html = "";
+
+  app.portafolio.map(item => {
+    html += `<div class="portfolio__content mix ${item.class}">
+            <a href="#">
+              <img src=${item.img} class="portfolio__img" />
+            </a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">${item.subtitle}</span>
+              <a href="#">
+                <h2 class="portfolio__title">
+                  ${item.description}
+                </h2>
+              </a>
+            </div>
+          </div>`
+  })
+  document.getElementById("portafolio").innerHTML = html;
+}
+
+

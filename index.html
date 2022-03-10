@@ -4,18 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- ===== BOX ICONS ===== -->
     <link
       href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css"
       rel="stylesheet"
     />
-
-     <!-- ===== CSS ===== -->
+   
     <link rel="stylesheet" href="./css/styles.css" />
   <title>Pages</title>
 </head>
 <body>
-   <!--===== HEADER =====-->
+  
     <header class="l-header" id="header">
       <nav class="nav bd-container">
         <a href="" class="nav__logo">
@@ -25,19 +23,19 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link active-link">All</a>
+              <a href="" class="nav__link active-link">All</a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link">Branging</a>
+              <a href="" class="nav__link">Branging</a>
             </li>
             <li class="nav__item">
-              <a href="#services" class="nav__link">Web</a>
+              <a href="" class="nav__link">Web</a>
             </li>
             <li class="nav__item">
-              <a href="#portafolio" class="nav__link">Photography</a>
+              <a href="" class="nav__link">Photography</a>
             </li>
             <li class="nav__item">
-              <a href="#contact" class="nav__link">App</a>
+              <a href="" class="nav__link">App</a>
             </li>
             <li class="nav__item">
              <i class='bx bx-search nav__search'></i>
@@ -70,104 +68,18 @@
       </section>
     </main>
     <section class="portfolio-container bd-container">
-      <section class="portfolio section" id="portafolio">
+      <section class="portfolio section">
 
         <div class="portfolio__nav">
           <span class="portfolio__item active-portfolio" data-filter="all"
             >All</span
           >
-          <span class="portfolio__item" data-filter=".branging">Branding</span>
+          <span class="portfolio__item" data-filter=".branding">Branding</span>
           <span class="portfolio__item" data-filter=".web">Web</span>
           <span class="portfolio__item" data-filter=".photo">Photography</span>
           <span class="portfolio__item" data-filter=".app">App</span>
         </div>
-        <div class="portfolio__container bd-grid">
-          <div class="portfolio__content mix branging">
-            <a href="#">
-              <img src="assets/img/work1.jpg" class="portfolio__img" alt="" />
-            </a>
-            <div class="portfolio__data">
-              <span class="portfolio__subtitle">Branding</span>
-              <a href="#">
-                <h2 class="portfolio__title">
-                  Lo mejor en branging
-                </h2>
-              </a>
-              <a href="#" class="button button-link">Ver detalles</a>
-            </div>
-          </div>
-
-          <div class="portfolio__content mix branging">
-            <a href="#">
-              <img src="assets/img/work2.jpg" class="portfolio__img" alt="" />
-            </a>
-            <div class="portfolio__data">
-              <span class="portfolio__subtitle">Branding</span>
-              <a href="#">
-                <h2 class="portfolio__title">
-                  Lo mejor en branging
-                </h2>
-              </a>
-              <a href="#" class="button button-link">Ver detalles</a>
-            </div>
-          </div>
-
-          <div class="portfolio__content mix web">
-            <a href="#">
-              <img src="assets/img/work3.jpg" class="portfolio__img" alt="" />
-            </a>
-            <div class="portfolio__data">
-              <span class="portfolio__subtitle">Web</span>
-              <a href="#">
-                <h2 class="portfolio__title">
-                  Web actractivas
-                </h2>
-              </a>
-              <a href="#" class="button button-link">Ver detalles</a>
-            </div>
-          </div>
-          <div class="portfolio__content mix web">
-            <a href="#">
-              <img src="assets/img/work4.jpg" class="portfolio__img" alt="" />
-            </a>
-            <div class="portfolio__data">
-              <span class="portfolio__subtitle">Web</span>
-              <a href="#">
-                <h2 class="portfolio__title">
-                  Web actractivas
-                </h2>
-              </a>
-              <a href="#" class="button button-link">Ver detalles</a>
-            </div>
-          </div>
-          <div class="portfolio__content mix photo">
-            <a href="#">
-              <img src="assets/img/work5.jpg" class="portfolio__img" alt="" />
-            </a>
-            <div class="portfolio__data">
-              <span class="portfolio__subtitle">Photography</span>
-              <a href="#">
-                <h2 class="portfolio__title">
-                 Fotografia profecional enfocada a marca
-                </h2>
-              </a>
-              <a href="#" class="button button-link">Ver detalles</a>
-            </div>
-          </div>
-          <div class="portfolio__content mix photo">
-            <a href="#">
-              <img src="assets/img/work6.jpg" class="portfolio__img" alt="" />
-            </a>
-            <div class="portfolio__data">
-              <span class="portfolio__subtitle">Photography</span>
-              <a href="#">
-                <h2 class="portfolio__title">
-                  Fotografia profecional enfocada a marca
-                </h2>
-              </a>
-              <a href="#" class="button button-link">Ver detalles</a>
-            </div>
-          </div>
+        <div class="portfolio__container bd-grid" id="portafolio">
         </div>
       </section>
     </section>
@@ -195,8 +107,9 @@
       
        <!-- ===== MIXITUP FILTER ===== -->
     <script src="./js/mixitup.min.js"></script>
-      <!--===== JS =====-->
+
     <script src="./js/main.js"></script>
+    <script src="./js/portafolio.jsonp"></script>
    
 </body>
 </html>
