@@ -49,12 +49,7 @@
   .project__container {
     padding: 4.5rem 1rem;
   }
-  .project__icon {
-    font-size: 6rem;
-  }
-  .project__title {
-    font-size: 2.5rem;
-  }
+
 }
 @media screen and (min-width: 1024px) {
   .bd-container {

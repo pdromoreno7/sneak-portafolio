@@ -12,7 +12,7 @@
   --first-color-light: #ffffff;
   --first-color-lighten: #4d4d4d;
   --secundario-color: #fc758c;
-  --tercer-color: #fc758c;
+  --tercer-color: #ff5672;
 
   /*===== Font and typography =====*/
   --body-font: 'Questrial', sans-serif;;
@@ -39,8 +39,6 @@
 
   /*===== sombras =====*/
   --sombra-box: 0 2px 4px rgba(0, 0, 0, 0.1);
-  --sombra2-box: 0 4px 6px rgba(174, 190, 205, 0.3);
-  --sombra3-box: 0 6px 8px rgba(174, 190, 205, 0.4);
 
   /*===== z index =====*/
   --z-normal: 1;
@@ -133,7 +131,7 @@ button{
   max-width: 300px;
  padding: .7rem 2rem;
  font-family: var(--body-font) ;
- background-color:  var(--secundario-color);
+ background-color:  var(--tercer-color);
  cursor: pointer;
   transition: all 1s;
 
