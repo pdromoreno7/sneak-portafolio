@@ -39,6 +39,8 @@
 
   /*===== sombras =====*/
   --sombra-box: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --sombra2-box: 0 4px 6px rgba(174, 190, 205, 0.3);
+  --sombra3-box: 0 6px 8px rgba(174, 190, 205, 0.4);
 
   /*===== z index =====*/
   --z-normal: 1;
