@@ -111,8 +111,8 @@ gsap.from(".nav__toggle", {
 });
 gsap.from(".nav__item", {
   opacity: 0,
-  duration: 2,
-  delay: 1.8,
+  duration: 1,
+  delay: 1.2,
   y: 25,
   ease: "expo.out",
   stagger: 0.2,
